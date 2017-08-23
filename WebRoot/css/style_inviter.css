@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 62.5%;
+	background: url(../img/bodybg.png) repeat;
+}
+.containter{
+	width:100%;
+	background: url(../img/bg.jpg) repeat-x;
+	
+}
+.innerhead{
+	width: 90%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.headImg{
+	width: 100%;
+	float: left;
+}
+.headImg img{
+	width: 100%;
+	float: left;
+	display: inline-block;
+}
+.inner{
+	width: 60%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding:10px;
+}
+.font_16{
+	float: left;
+	width: 100%;
+}
+.font_16 p{
+	width: 100%;
+	float: left;
+	color: #fff;
+	line-height: 30px;
+}
+.btn{
+	text-align: center;
+	width: 100%;
+	float: left;
+	margin: 20px 0;
+}
+.btn button{
+	padding: 10px 35px 10px 70px;
+	height: 50px;
+	/*background: #FFFFFF;*/
+	border: 1px solid #ff0066;
+	border-radius: 20px;
+	box-shadow: 2px 8px #ff0066;
+	font-size: 18px;
+	color: #FF0066;
+	background: #FFFFFF url(../img/icon.png) no-repeat 35px 11px;
+	background-size: 25px;
+}
+.ewm{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.ewm p{
+	float: left;
+	width: 100%;
+	color: #fff;
+}
+.ewm img{
+	width: 25%;
+	
+}
+
+@media only screen and (min-width: 310px) and (max-width: 640px) {
+	.font_16 p,.ewm p{
+		font-size:0.2rem;
+	}
+	
+}
+@media only screen and (min-width: 640px) and (max-width: 1200px) {
+	.font_16 p,.ewm p{
+	    font-size: 0.4rem;
+    	line-height: 0.7rem;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.font_16 p,.ewm p{
+	    font-size: 0.3rem;
+    	line-height: 0.5rem;
+	}
+}
+/*---------二维码-----------*/
+.bg_ewm{
+	background: url(../img/ewmImg.jpg) no-repeat;
+	background-size:100%;
+}
+.code{
+	width: 100%;
+	top: 8rem;
+	position: absolute;
+	text-align: center;
+}
+.code img{
+	width: 80%;
+}
+.code h1{
+	color: #FF0066;
+	font-weight: blod;
+	text-shadow: 3px 3px #ccc;
+	font-size: 0.7rem;
+	margin-top: 0.6rem;
+}
+@media only screen and (min-width: 640px) and (max-width: 1200px) {
+	.code{
+		top: 8rem;
+		position: absolute;
+	}
+	.code h1{
+		font-size: 0.6rem;
+	}
+}
